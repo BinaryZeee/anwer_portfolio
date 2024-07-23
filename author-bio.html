@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anwer Ansari</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .underline {
+      height: 2px;
+      background-color: #ef4444; /* Tailwind Red-500 */
+      position: absolute;
+      bottom: 0;
+      transition: left 0.3s, width 0.3s;
+    }
+    .nav-container {
+      position: relative;
+    }
+  </style>
+</head>
+<body>
+  <header class="text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <span class="ml-3 text-xl">Anwer Ansari</span>
+      </a>
+      <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center nav-container">
+        <a id="home-link" href="home.html" class="mr-5 hover:text-red-500 tab">Home</a>
+        <a id="author-bio-link" href="author-bio.html" class="mr-5 hover:text-red-500 tab">Author Bio</a>
+        <a id="book-summary-link" href="book-summary.html" class="mr-5 hover:text-red-500 tab">Book Summary</a>
+        <a id="favourite-books-link" href="favourite-books.html" class="mr-5 hover:text-red-500 tab">Favourite Books</a>
+        <a id="announcement-link" href="announcement.html" class="mr-5 hover:text-red-500 tab">Announcement</a>
+        <a id="contact-link" href="contact.html" class="mr-5 hover:text-red-500 tab">Contact</a>
+        <div class="underline" id="underline"></div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content for Author Bio Page -->
+  <section class="text-gray-600 body-font overflow-hidden">
+    <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col md:flex-row">
+      <!-- Dummy Image -->
+      <div class="lg:w-1/2 w-full mb-10 md:mb-0">
+        <img class="object-cover object-center rounded-lg" alt="author image" src="https://via.placeholder.com/400x400">
+      </div>
+      <!-- Author Bio Text -->
+      <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6">
+        <h1 class="text-gray-900 text-5xl title-font font-medium mb-4">Pulak Prasad</h1>
+        <p class="leading-relaxed mb-4">Pulak Prasad grew up in India across many towns and cities. His father was in the armed forces where the Indian government transferred him to new locations every couple of years. Pulak changed seven schools in his first twelve years of studies.</p>
+        <p class="leading-relaxed mb-4">He has been gifted with a sense of numbers and mistakenly thought he could be an engineer. He earned his undergrad engineering degree from the Indian Institute of Technology in Delhi (IIT Delhi) and got his first job in Unilever India as a production management trainee. While Unilever was a great experience, he did not enjoy his shop floor job. To escape his boredom, he decided to pursue an MBA.</p>
+        <p class="leading-relaxed mb-4">To his surprise, he loved his two years at the MBA school Indian Institute of Management Ahmedabad (IIM Ahmedabad). He was very lucky to land a job at the management consulting firm McKinsey & Company in 1992. He spent six years at McKinsey in India, South Africa (he volunteered to go to Johannesburg after apartheid was abolished), and the US. However, all this while, he could not see himself as a life-long consultant. And so, as he had done earlier, he left consulting to try something new.</p>
+        <p class="leading-relaxed mb-4">In 1998, he joined the private equity firm Warburg Pincus. Within a few months at Warburg, he knew he had found his lifelong passion: investing. Pulak was very fortunate to have bosses like Dalip Pathak and Chip Kaye who were ideal mentors: they were patient with his mistakes and gave him a lot of freedom to pursue his passion. At Warburg, Pulak did private equity as well as public equity deals.</p>
+        <p class="leading-relaxed mb-4">After spending more than eight years at Warburg, four of which were as the co-head of India, Pulak decided to launch his own firm Nalanda Capital in early 2007. He decided to focus exclusively on investing in listed India securities. Nalanda aims to be a permanent owner of high-quality Indian businesses. It manages about $5 billion primarily for US endowments, and US and European family offices and foundations.</p>
+        <p class="leading-relaxed mb-4">Apart from investing, Pulak’s two other passions are running and reading. He primarily reads two types of books: fiction and evolutionary biology. For reasons not clear to him, in 2001, he became interested in Darwinian theory of evolution, and started devouring many books on the topic. He continues to do so today (his latest: Evolution Gone Wrong by Alex Bezzerides). At Nalanda, in his quarterly letter to investors, he started drawing parallels between investing concepts and evolutionary theory. Encouraged by many of his readers who said they loved his letters, he decided to write the book What I Learned About Investing From Darwin.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Include Footer -->
+  <footer class="text-gray-600 body-font">
+    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+        <span class="ml-3 text-xl">Anwer Ansari</span>
+      </a>
+      <p class="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© 2024 Anwer Ansari —
+        <a href="https://twitter.com/anweransari" class="text-gray-600 ml-1" target="_blank" rel="noopener noreferrer">@anweransari</a>
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <a class="text-gray-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M18.36 6.64a9 9 0 011.42 4.36h0c0 5.25-4.27 9.52-9.52 9.52h-5v-3h5c3.03 0 5.5-2.47 5.5-5.5s-2.47-5.5-5.5-5.5-5.5 2.47-5.5 5.5H3c0-4.42 3.58-8 8-8s8 3.58 8 8z"></path>
+          </svg>
+        </a>
+      </span>
+    </div>
+  </footer>
+
+</body>
+</html>
