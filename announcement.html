@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="assets/logo.ico" type="image/x-icon">
+    <link rel="icon" href="assets/logo.ico" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Announcement</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .underline {
+      height: 2px;
+      background-color: #ef4444; /* Tailwind Red-500 */
+      position: absolute;
+      bottom: 0;
+      transition: left 0.3s, width 0.3s;
+    }
+    .nav-container {
+      position: relative;
+    }
+  </style>
+</head>
+<body>
+  <header class="bg-white shadow">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <span class="ml-3 text-xl">Anwer Ansari</span>
+      </a>
+      <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center nav-container">
+        <a href="index.html" class="mr-5 hover:text-red-500 relative w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-red-500 after:w-full after:scale-x-0 hover:after:scale-x-100 after:transition after:duration-300 after:origin-center">Home</a>
+        <a href="author-bio.html" class="mr-5 hover:text-red-500 relative w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-red-500 after:w-full after:scale-x-0 hover:after:scale-x-100 after:transition after:duration-300 after:origin-center">Author Bio</a>
+        <a href="book-summary.html" class="mr-5 hover:text-red-500 relative w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-red-500 after:w-full after:scale-x-0 hover:after:scale-x-100 after:transition after:duration-300 after:origin-center">Book Summary</a>
+        <a href="favourite-books.html" class="mr-5 hover:text-red-500 relative w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-red-500 after:w-full after:scale-x-0 hover:after:scale-x-100 after:transition after:duration-300 after:origin-center">Favourite Books</a>
+        <a  class="mr-5 hover:text-red-500 border-b-2 border-red-500">Announcement</a>
+        <a href="contact.html" class="mr-5 hover:text-red-500 relative w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-red-500 after:w-full after:scale-x-0 hover:after:scale-x-100 after:transition after:duration-300 after:origin-center">Contact</a>
+        <div class="underline"></div>
+      </nav>
+    </div>
+  </header>
+  <div class="h-80 bg-gradient-to-r from-purple-500 to-red-500 flex flex-col justify-center items-center " style="background-image: url(https://www.pulakprasad.com/wp-content/themes/onum/images/bg-page-header.jpg);">
+    <h1 class="text-gray-900 text-5xl title-font font-medium mb-4">Announcement</h1>
+    <p><a href="index.html" class="text-gray-500">Home</a> > Announcement</p>
+  </div>
+
+
+
+  
+
+</body>
+</html>
